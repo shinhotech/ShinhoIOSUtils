@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		CB5E7930250F4F400032D0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5E792F250F4F400032D0BE /* Assets.xcassets */; };
 		CB5E7933250F4F400032D0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5E7931250F4F400032D0BE /* LaunchScreen.storyboard */; };
 		DD035E65F5DFA3B6AA9C8B12 /* Pods_ShinhoIOSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */; };
+		EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */; };
+		EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CB5E7932250F4F400032D0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB5E7934250F4F400032D0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinhoIOSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
+		EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,6 @@
 				066329859CC7FD44E9671E85 /* Pods-ShinhoIOSUtils.debug.xcconfig */,
 				BB93F117C35D2044CAC1E799 /* Pods-ShinhoIOSUtils.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +84,7 @@
 		CB5E7925250F4F400032D0BE /* ShinhoIOSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				EE7998CC2511AB97004A09C0 /* Utils */,
 				CB5E7926250F4F400032D0BE /* AppDelegate.swift */,
 				CB5E7928250F4F400032D0BE /* SceneDelegate.swift */,
 				CB5E792A250F4F400032D0BE /* ViewController.swift */,
@@ -90,6 +94,15 @@
 				CB5E7934250F4F400032D0BE /* Info.plist */,
 			);
 			path = ShinhoIOSUtils;
+			sourceTree = "<group>";
+		};
+		EE7998CC2511AB97004A09C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */,
+				EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +222,8 @@
 				CB5E792B250F4F400032D0BE /* ViewController.swift in Sources */,
 				CB5E7927250F4F400032D0BE /* AppDelegate.swift in Sources */,
 				CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */,
+				EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */,
+				EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShinhoIOSUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,6 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShinhoIOSUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
