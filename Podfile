@@ -9,4 +9,6 @@ target 'ShinhoIOSUtils' do
   # Pods for ShinhoIOSUtils
   pod 'Alamofire'
   pod 'SwifterSwift'
+  pod 'RxSwift'
+  pod 'RxAlamofire'
 end
