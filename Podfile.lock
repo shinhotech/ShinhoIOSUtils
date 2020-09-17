@@ -1,5 +1,11 @@
 PODS:
   - Alamofire (5.2.2)
+  - RxAlamofire (5.6.1):
+    - RxAlamofire/Core (= 5.6.1)
+  - RxAlamofire/Core (5.6.1):
+    - Alamofire (~> 5.2)
+    - RxSwift (~> 5.1)
+  - RxSwift (5.1.1)
   - SwifterSwift (5.1.0):
     - SwifterSwift/AppKit (= 5.1.0)
     - SwifterSwift/CoreGraphics (= 5.1.0)
@@ -24,17 +30,23 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - RxAlamofire
+  - RxSwift
   - SwifterSwift
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - RxAlamofire
+    - RxSwift
     - SwifterSwift
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  RxAlamofire: 0531dddf378c84270e97e897333678f1cfaec3ba
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
 
-PODFILE CHECKSUM: 6ddd5281f5dd25c8fb58433aeff0dca0c5448b79
+PODFILE CHECKSUM: 7ee13fe4b96c63db908ff905fd22170954a14baa
 
 COCOAPODS: 1.9.3
