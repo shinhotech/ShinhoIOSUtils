@@ -14,6 +14,7 @@
 		CB5E7930250F4F400032D0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5E792F250F4F400032D0BE /* Assets.xcassets */; };
 		CB5E7933250F4F400032D0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5E7931250F4F400032D0BE /* LaunchScreen.storyboard */; };
 		DD035E65F5DFA3B6AA9C8B12 /* Pods_ShinhoIOSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */; };
+		EE13295125135FDE00F67C3A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13295025135FDE00F67C3A /* Constant.swift */; };
 		EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */; };
 		EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		CB5E7932250F4F400032D0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB5E7934250F4F400032D0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinhoIOSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE13295025135FDE00F67C3A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
 		EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			children = (
 				EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */,
 				EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */,
+				EE13295025135FDE00F67C3A /* Constant.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */,
 				EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */,
 				EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */,
+				EE13295125135FDE00F67C3A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
