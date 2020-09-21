@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB5E7927250F4F400032D0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E7926250F4F400032D0BE /* AppDelegate.swift */; };
-		CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E7928250F4F400032D0BE /* SceneDelegate.swift */; };
 		CB5E792B250F4F400032D0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E792A250F4F400032D0BE /* ViewController.swift */; };
 		CB5E792E250F4F400032D0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5E792C250F4F400032D0BE /* Main.storyboard */; };
 		CB5E7930250F4F400032D0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5E792F250F4F400032D0BE /* Assets.xcassets */; };
@@ -23,6 +22,8 @@
 		DD035E65F5DFA3B6AA9C8B12 /* Pods_ShinhoIOSUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */; };
 		EE13295A251360E700F67C3A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE132959251360E700F67C3A /* Constant.swift */; };
 		EE1AD246251892EA007D4FDC /* String+AXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1AD245251892EA007D4FDC /* String+AXExtension.swift */; };
+		EE1AD25B25189536007D4FDC /* Data+AXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1AD25A25189535007D4FDC /* Data+AXExtension.swift */; };
+		EE1AD25E25189561007D4FDC /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1AD25D25189561007D4FDC /* Shortcut.swift */; };
 		EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */; };
 		EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +33,6 @@
 		BB93F117C35D2044CAC1E799 /* Pods-ShinhoIOSUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinhoIOSUtils.release.xcconfig"; path = "Target Support Files/Pods-ShinhoIOSUtils/Pods-ShinhoIOSUtils.release.xcconfig"; sourceTree = "<group>"; };
 		CB5E7923250F4F400032D0BE /* ShinhoIOSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinhoIOSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5E7926250F4F400032D0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB5E7928250F4F400032D0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB5E792A250F4F400032D0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB5E792D250F4F400032D0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB5E792F250F4F400032D0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +48,8 @@
 		E457F586EC3A2F627294BA58 /* Pods_ShinhoIOSUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinhoIOSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE132959251360E700F67C3A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		EE1AD245251892EA007D4FDC /* String+AXExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AXExtension.swift"; sourceTree = "<group>"; };
+		EE1AD25A25189535007D4FDC /* Data+AXExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+AXExtension.swift"; sourceTree = "<group>"; };
+		EE1AD25D25189561007D4FDC /* Shortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
 		EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
 		EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,7 +108,6 @@
 				CB5E793A2511FF400032D0BE /* API */,
 				EE7998CC2511AB97004A09C0 /* Utils */,
 				CB5E7926250F4F400032D0BE /* AppDelegate.swift */,
-				CB5E7928250F4F400032D0BE /* SceneDelegate.swift */,
 				CB5E792A250F4F400032D0BE /* ViewController.swift */,
 				CB5E792C250F4F400032D0BE /* Main.storyboard */,
 				CB5E792F250F4F400032D0BE /* Assets.xcassets */,
@@ -133,6 +134,7 @@
 				CB5E794625120E780032D0BE /* UIDevice+AXExtension.swift */,
 				CB5E794825120ED10032D0BE /* UIView+AXExtension.swift */,
 				EE1AD245251892EA007D4FDC /* String+AXExtension.swift */,
+				EE1AD25A25189535007D4FDC /* Data+AXExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 		EE7998CC2511AB97004A09C0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EE1AD25D25189561007D4FDC /* Shortcut.swift */,
 				EE132959251360E700F67C3A /* Constant.swift */,
 				EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */,
 				EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */,
@@ -267,15 +270,16 @@
 				CB5E7927250F4F400032D0BE /* AppDelegate.swift in Sources */,
 				EE1AD246251892EA007D4FDC /* String+AXExtension.swift in Sources */,
 				CB5E794725120E780032D0BE /* UIDevice+AXExtension.swift in Sources */,
+				EE1AD25E25189561007D4FDC /* Shortcut.swift in Sources */,
 				CB5E794325120DE00032D0BE /* UIApplication+AXExtension.swift in Sources */,
 				CB5E794925120ED10032D0BE /* UIView+AXExtension.swift in Sources */,
-				CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */,
 				EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */,
 				CB5E794525120E440032D0BE /* UserDefaultsWrapper.swift in Sources */,
 				EE13295A251360E700F67C3A /* Constant.swift in Sources */,
 				CB5E793C2511FF700032D0BE /* API.swift in Sources */,
 				EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */,
 				CB5E794025120D7D0032D0BE /* SystemConfigure.swift in Sources */,
+				EE1AD25B25189536007D4FDC /* Data+AXExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +429,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShinhoIOSUtils/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShinhoIOSUtils/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
