@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB506ECC251B24D4003D1C73 /* UIFontUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB506ECB251B24D4003D1C73 /* UIFontUtil.swift */; };
+		CB506ECE251B25BF003D1C73 /* Date+AXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB506ECD251B25BF003D1C73 /* Date+AXExtension.swift */; };
 		CB5E7927250F4F400032D0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E7926250F4F400032D0BE /* AppDelegate.swift */; };
 		CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E7928250F4F400032D0BE /* SceneDelegate.swift */; };
 		CB5E792B250F4F400032D0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5E792A250F4F400032D0BE /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		066329859CC7FD44E9671E85 /* Pods-ShinhoIOSUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinhoIOSUtils.debug.xcconfig"; path = "Target Support Files/Pods-ShinhoIOSUtils/Pods-ShinhoIOSUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		BB93F117C35D2044CAC1E799 /* Pods-ShinhoIOSUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinhoIOSUtils.release.xcconfig"; path = "Target Support Files/Pods-ShinhoIOSUtils/Pods-ShinhoIOSUtils.release.xcconfig"; sourceTree = "<group>"; };
+		CB506ECB251B24D4003D1C73 /* UIFontUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontUtil.swift; sourceTree = "<group>"; };
+		CB506ECD251B25BF003D1C73 /* Date+AXExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AXExtension.swift"; sourceTree = "<group>"; };
 		CB5E7923250F4F400032D0BE /* ShinhoIOSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinhoIOSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5E7926250F4F400032D0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB5E7928250F4F400032D0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				CB5E794425120E440032D0BE /* UserDefaultsWrapper.swift */,
 				CB5E794625120E780032D0BE /* UIDevice+AXExtension.swift */,
 				CB5E794825120ED10032D0BE /* UIView+AXExtension.swift */,
+				CB506ECD251B25BF003D1C73 /* Date+AXExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				EE7998CD2511B6AE004A09C0 /* UIImageUtil.swift */,
 				EE7998CF2511B76E004A09C0 /* UIColorUtil.swift */,
 				CB5E793F25120D7D0032D0BE /* SystemConfigure.swift */,
+				CB506ECB251B24D4003D1C73 /* UIFontUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -262,12 +268,14 @@
 				CB5E794725120E780032D0BE /* UIDevice+AXExtension.swift in Sources */,
 				CB5E794325120DE00032D0BE /* UIApplication+AXExtension.swift in Sources */,
 				CB5E794925120ED10032D0BE /* UIView+AXExtension.swift in Sources */,
+				CB506ECE251B25BF003D1C73 /* Date+AXExtension.swift in Sources */,
 				CB5E7929250F4F400032D0BE /* SceneDelegate.swift in Sources */,
 				EE7998CE2511B6AE004A09C0 /* UIImageUtil.swift in Sources */,
 				CB5E794525120E440032D0BE /* UserDefaultsWrapper.swift in Sources */,
 				CB5E793C2511FF700032D0BE /* API.swift in Sources */,
 				EE7998D02511B76E004A09C0 /* UIColorUtil.swift in Sources */,
 				CB5E794025120D7D0032D0BE /* SystemConfigure.swift in Sources */,
+				CB506ECC251B24D4003D1C73 /* UIFontUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
