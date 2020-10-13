@@ -1,9 +1,8 @@
 //
 //  Date+AXExtension.swift
-//  FSFA
+//  ShinhoIOSUtils
 //
-//  Created by Lcm on 2018/4/18.
-//  Copyright © 2018年 shinho. All rights reserved.
+//  Created by Lcm on 2020/9/23.
 //
 
 import UIKit
